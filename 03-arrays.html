@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // Array object:: non-primitive
+        const favCookies = [
+            "chocolate chip", //0
+            "sugar cookie" //1
+        ];
+
+
+        //Add or Remove item from Array
+        favCookies.push("windwill cookies"); //add new item to the end of list     
+        const cookie = favCookies.pop(); // remove last item from the list, if no last item return undefined
+        
+
+        console.log(favCookies);
+        console.log("I am so sad, because I gone - " + cookie);
+
+        //Access individualitem from Array
+        let fav = 1
+        console.log("first item is  : " + favCookies[fav]);
+
+        // how many items in Array
+        console.log(favCookies.length); //array leght
+        console.log(favCookies[favCookies.length-1]);//get last element
+
+    
+    </script>
+    
+</body>
+</html>
