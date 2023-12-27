@@ -1,2 +1,2 @@
 # javascript-tutorial
-# course link : https://testautomationu.applitools.com/javascript-tutorial/
+# JS Introduction url : https://testautomationu.applitools.com/javascript-tutorial/
